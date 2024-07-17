@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-@charset "utf-8";
-
 /* common */
 
 html {
@@ -97,6 +95,11 @@ color: deepskyblue;
   object-fit: contain;
 }
 
+.youtube {
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width:800px) {
 
   .row-pc {
@@ -116,13 +119,18 @@ color: deepskyblue;
 
   .img {
     margin: 0 auto;
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
   }
   
   .img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
+  }
+
+  .youtube {
+    width: 200px;
+    height: 100px;
   }
 }
