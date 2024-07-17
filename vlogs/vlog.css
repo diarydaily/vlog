@@ -96,8 +96,8 @@ color: deepskyblue;
 }
 
 .youtube {
-  width: 100%;
-  height: 100%;
+  width: 50vw;
+  height: 30vw;
 }
 
 @media (max-width:800px) {
