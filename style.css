@@ -14,10 +14,15 @@ li.list {
   padding: 0;
 }
 
-a {
+a.show-link{
   font-size: 1.5rem;
   font-weight: bold;
   color: deepskyblue;
+  text-decoration-line: none;
+}
+
+a:not(.show-link) {
+  color: black;
   text-decoration-line: none;
 }
 
@@ -121,10 +126,6 @@ article {
   width: 60%;
 }
 
-.aside-pc {
-  width: 20%;
-}
-
 /* prof */
 
 .icon {
@@ -161,15 +162,27 @@ article {
   margin-right: 0;
 }
 
-.calendar a {
-  font-size: 1rem;
-  color: inherit;
-text-decoration-line: none;
+/* vlog */
+
+.vlog-img {
+  margin-right:5rem;
+  width: 300px;
+  height: 150px;
 }
 
-.calendar .list {
-  font-size: 1.5rem;
-  color: inherit;
+.vlog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.calendar {
+  margin: 1rem;
+}
+
+.calendar a {
+display: flex;
+flex-direction: row;
 }
 
 /* sp */
@@ -288,6 +301,25 @@ span.close {
   .prof-header {
     margin-top: 2rem;
   }
+
+  /* vlog */
+
+  .vlog-img {
+    margin: auto auto;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .vlog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+.calendar a {
+  flex-direction: column;
+  margin-left: 10%;
+}
 
   /* article */
 
