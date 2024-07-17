@@ -177,7 +177,8 @@ article {
 }
 
 .calendar {
-  margin: 1rem;
+  border:#fce2c4 0.3rem solid;
+  margin: 3rem;
 }
 
 .calendar a {
